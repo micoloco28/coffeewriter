@@ -1,0 +1,139 @@
+/*For HOME PAGE only*/
+/*------------------------------------------------550 max-width-------------------------------------------------*/
+@media screen and (max-width: 550px) {
+
+  /*HEADER VALUE*/
+  .block-views-header-value-block {
+    position: relative;
+    top: -170px;
+    right: -150px;
+    width: 60%;
+
+    margin-bottom: 100px;
+
+    .views-field-title {
+      font-size: 15px;
+    }
+
+    .views-field-body {
+      font-size: 10px;
+    }
+  }
+
+  /*FEATURED BLOG*/
+  .block-views-featured-blog-block {
+    p {
+      width: 80%;
+    }
+  }
+}
+
+/*-------------------------------------------------940 max-width------------------------------------------------*/
+@media screen and (max-width: 940px) {
+  
+  /*HEADER VALUE*/
+  .block-views-header-value-block {
+    position: relative;
+    top: -226px;
+    right: -260px;
+    width: 60%;
+
+    margin-bottom: -145px;
+
+    .views-field-title {
+      font-size: 20px;
+    }
+
+    .views-field-body {
+      font-size: 20px;
+    }
+  }
+
+  .block-views-featured-coffee-block,
+  .block-views-featured-cake-block {
+    .views-field-title {
+      font-size: 18px;
+    }
+
+    .views-field-body,
+    .views-field-field-price {
+      font-size: 13px;
+    }
+  }
+
+  .block-views-featured-blog-block {
+    margin: 82px auto;
+    width: 72%;
+
+    p {
+      width: 80%;
+    }
+
+    .views-field-title,
+    .views-field-created {
+      font-size: 18px;
+    }
+
+    .views-field-body {
+      font-size: 13px;
+    }
+  }
+}
+
+/*------------------------------------------------480 max-width-------------------------------------------------*/
+/* styles for mobile browsers smaller than 480px; (iPhone) */
+@media screen and (max-width: 480px) {
+
+  /*HEADER VALUE*/
+  .block-views-header-value-block {
+    position: relative;
+    top: -142px;
+    right: -145px;
+    width: 60%;
+
+    margin-bottom: -95px;
+
+    .views-field-title {
+      font-size: 14px;
+    }
+
+    .views-field-body {
+      font-size: 10px;
+    }
+  }
+
+  .block-views-featured-blog-block {
+    width: 62%;
+  }
+}
+
+/*------------------------------------------------550 max-width-------------------------------------------------*/
+@media screen and (max-width: 550px) {
+  /*HEADER VALUE*/
+  .block-views-header-value-block {
+    position: relative;
+    top: -170px;
+    right: -170px;
+    width: 60%;
+
+
+    margin-bottom: -115px;
+
+    .views-field-title {
+      font-size: 20px;
+    }
+
+    .views-field-body {
+      font-size: 12px;
+    }
+  }
+}
+
+/*-------------------------------------------------885 max-width------------------------------------------------*/
+@media screen and (max-width: 855px) {
+
+  /*HEADER VALUE*/
+  .block-views-header-value-block {
+      margin-bottom: -165px;
+  }
+}

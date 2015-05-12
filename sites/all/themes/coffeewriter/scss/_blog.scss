@@ -1,0 +1,30 @@
+/*For BLOG Page only*/
+/*------------------------------------------------550 max-width-------------------------------------------------*/
+@media screen and (max-width: 550px) {
+  .block-views-blogs-block-1 {
+    .views-field-body {
+      p {
+      	width: 90%;
+      }
+    }
+  }
+}
+
+/*------------------------------------------------480 max-width-------------------------------------------------*/
+/* styles for mobile browsers smaller than 480px; (iPhone) */
+@media screen and (max-width: 480px) {
+  .block-views-blogs-block-1 {
+    .views-field-title,
+    .views-field-created,
+    .views-field-view-node {
+      font-size: 16px;
+    }
+
+    .views-field-body {
+      p {
+      	font-size: 14px;
+      	width: 85%;
+      }
+    }
+  }
+}

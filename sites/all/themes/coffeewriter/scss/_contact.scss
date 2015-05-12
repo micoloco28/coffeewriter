@@ -1,0 +1,101 @@
+/*For CONTACT Page only*/
+/*------------------------------------------------550 max-width-------------------------------------------------*/
+@media screen and (max-width: 550px) {
+  .block-views-cw-contact-block {
+    margin-top: -50px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+
+    .views-field-title {
+      span {
+        text-align: center;
+      }
+     }
+
+    .views-field-body {
+      p {
+       font-size: 15px;
+      }	
+    }
+  }
+
+  .block-views-contact-block-1 {
+  	#webform-client-form-4 {
+  	  .webform-component--name,
+  	  .webform-component--email,
+  	  .webform-component--contact,
+  	  .webform-component--message {
+  	  	width: 100%;
+  	  	margin-left: 30px
+  	  }
+
+  	  .form-submit {
+  	  	width: 100%;
+  	    margin-left: 30px
+  	  }
+  	}
+  }
+}
+
+/*-------------------------------------------------940 max-width------------------------------------------------*/
+@media screen and (max-width: 940px) {
+  .block-views-cw-contact-block {
+    margin-top: 50px;
+    margin-left: -60px;
+    margin-bottom: 50px;
+
+    .views-field-title {
+      span {
+        text-align: center;
+      }
+     }
+
+    .views-field-body {
+      p {
+       font-size: 13px;
+      }	
+    }
+  }
+
+  .block-views-contact-block-1 {
+  	#webform-client-form-4 {
+  	  .webform-component--name,
+  	  .webform-component--email,
+  	  .webform-component--contact,
+  	  .webform-component--message {
+  	  	width: 100%;
+  	  	margin-left: 30px
+  	  }
+
+  	  .form-submit {
+  	  	width: 100%;
+  	    margin-left: 30px
+  	  }
+  	}
+  }
+}
+
+/*------------------------------------------------480 max-width-------------------------------------------------*/
+/* styles for mobile browsers smaller than 480px; (iPhone) */
+@media screen and (max-width: 480px) {
+  .block-views-cw-contact-block {
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+}
+
+/*------------------------------------------------550 max-width-------------------------------------------------*/
+@media screen and (max-width: 550px) {
+  .block-views-cw-contact-block {
+    margin-top: -50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+  }
+
+  .block-views-contact-block-1 {
+  	position: relative;
+    left: 15px;
+    margin-bottom: 50px;
+  }
+} 

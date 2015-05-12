@@ -1,0 +1,115 @@
+/*For COFFEE and CAKE Page Only*/
+/*------------------------------------------------550 max-width-------------------------------------------------*/
+@media screen and (max-width: 550px) {
+  /*DESCRIPTION*/
+  .block-views-lorem-description-block {
+    .views-field-body {
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  /*COFFEE & CAKE*/
+  .product-details {
+    position: relative;
+    top: 25px;
+    left: -15px;
+    margin-bottom: 30px;
+
+    span {
+      font-size: 15px;
+    }
+
+    .product-title, .cake-title {
+      position: relative;
+      left: 13px;
+      font-size: 15px;
+    }
+
+    .details {
+      span {
+        font-size: 13px;
+      }
+    }
+
+    .coffee-summary, .cake-summary {
+      position: absolute;
+      top: 65px;
+      left: 13px;
+      font-size: 13px;
+    }
+
+    .form-submit {
+      font-size: 13px;
+    }
+
+    #edit-submit,
+    #edit-submit--3 {
+      position: relative;
+      top: -28px;
+      left: 60px;
+    }
+
+    #edit-submit--2,
+    #edit-submit--4 {
+      position: relative;
+      top: -28px;
+      left: 65px;
+    }
+  }
+}
+
+/*-------------------------------------------------940 max-width------------------------------------------------*/
+@media screen and (max-width: 940px) {
+  /*COFFEE & CAKE*/
+  .product-details {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    margin-bottom: 40px;
+
+    span {
+      font-size: 15px;
+    }
+
+    .product-title, .cake-title {
+      position: relative;
+      left: 13px;
+      font-size: 13px;
+    }
+
+    .details {
+      span {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: 5px; 
+      }
+    }
+
+    .coffee-summary, .cake-summary {
+      position: absolute;
+      top: 45px;
+      left: 13px;
+      font-size: 10px;
+    }
+
+    .form-submit {
+      font-size: 10px;
+    }
+
+    #edit-submit,
+    #edit-submit--3 {
+      position: relative;
+      top: -22px;
+      left: 60px;
+    }
+
+    #edit-submit--2,
+    #edit-submit--4 {
+      position: relative;
+      top: -22px;
+      left: 65px;
+    }
+  }
+}

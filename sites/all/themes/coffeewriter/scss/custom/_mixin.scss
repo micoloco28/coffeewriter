@@ -1,0 +1,16 @@
+@mixin node_title {
+ font-family: "Gotham-Bold";
+ font-size: 15px;
+ font-weight: bold;
+ text-align: right;
+ text-transform: uppercase;
+ letter-spacing: 5px;
+}
+
+@mixin font_white {
+  color: #fff;
+}
+
+@mixin font_brown {
+  color: #5d3914;
+}

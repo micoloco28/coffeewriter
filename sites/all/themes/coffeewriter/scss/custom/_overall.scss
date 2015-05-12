@@ -1,0 +1,1035 @@
+/*----------------------------------------------------------------------------------------------------------------*/
+/*BODY || ALL*/
+
+
+/*VARIABLES*/
+$fbold: 'Gotham Bold', sans-serif;
+
+/*FONTS*/
+@font-face {
+    font-family: Gotham-Light;
+    src: url(../fonts/GOTHAM-LIGHT.OTF) format('opentype');
+}
+@font-face {
+    font-family: Gotham-Bold;
+    src: url(../fonts/GOTHAM-BOLD.OTF) format('opentype');
+}
+@font-face {
+    font-family: Gotham-Book;
+    src: url(../fonts/GOTHAM-BOOK.OTF) format('opentype');
+}
+@font-face {
+    font-family: Gotham-Black;
+    src: url(../fonts/GOTHAM-BLACK.OTF) format('opentype');
+}
+@font-face {
+    font-family: Gotham-Thin;
+    src: url(../fonts/GOTHAM-THIN.OTF) format('opentype');
+}
+
+body {
+  background: #EFDFC7;
+  color: #5d3914;
+}
+
+.not-front{
+	background: #f7f7f2;
+
+	.columns {
+      margin-bottom: 2%; 
+	}
+}
+
+a, span, p, div {
+  color: #5d3914;
+}
+
+a:hover {
+  color: #5d3914;
+}
+
+h1 {
+  color: #5d3914;
+
+  font-family: "Gotham-Bold";
+  font-size: 20px;	
+}
+
+.row {
+  max-width: 100%;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+/*VIEWS BORDER NONE*/
+.views-view-grid {
+  border: 0;
+  background: #f7f7f2;
+}
+
+/*COLOR FOR THE TEXTS*/
+.content {
+  color: #5d3914;
+}
+
+/*MENU BAR*/
+.top-bar {
+  position: relative;
+  height: 80px;
+  background: #f8f3d9;
+}
+
+/*LOGO/SITENAME || ALL*/
+.top-bar .name h1 a {
+  color: #5d3914;
+}
+
+
+/*LIST || ALL*/ 
+.top-bar-section li a:not(.button) {
+  background: #f8f3d9;
+  color: #5d3914;
+  text-transform: uppercase;
+
+  border-bottom: solid #f8f3d9;
+}
+
+.top-bar-section ul li {
+  display: inline;
+  float: none;
+}
+
+.top-bar-section ul li.active > a {
+  background: #f8f3d9;
+  color: #5d3914;
+  text-transform: uppercase;
+
+  border-bottom: solid black;
+}
+
+.top-bar-section ul li > a {
+  display: inline;
+}
+
+/*LIST (HOME HIDE)*/ 
+.action-links{
+  li {
+    display: none;
+  }
+}
+
+/*MAIN MENU*/
+#main-menu {
+  background: transparent;
+  margin: 0px auto;
+  width: 100%;
+  text-align: center;
+
+  margin-top: -55px;
+
+  font-family: "Gotham-Bold";
+  font-size: 15px;
+
+  a {
+  	padding-top: 10px;
+  	padding-left: 15px;
+  	padding-right: 15px;
+  	padding-bottom: 10px;
+  	letter-spacing: 1px;
+  }
+
+  .first a {
+    display: none;
+  }
+}
+
+/*MAIN MENU (HOVER)*/
+#main-menu li:hover a {
+  background: #F8F3D9;
+  /*color: #f8f3d9;*/
+  /*background: #9F7D55;*/
+}
+
+/*SECONDARY MENU (LOGOUT)*/
+#secondary-menu {
+  display: none;
+}
+
+/*CONTENT || ALL && COFFEE/CAKE*/
+table {
+  width: 88%;
+  margin: 0px auto; 
+
+  tr {
+    margin-bottom: 50px;
+  }
+}
+
+/*BANNER IMAGE*/
+.header {
+  margin-bottom: 20px;
+  width: 100%;
+
+  img {
+  	text-align: center; 
+  }
+}
+
+/*BANNER VALUE*/
+.block-views-header-value-block {
+  position: absolute;
+  top: 280px;
+  right: 100px;
+  width: 43%;
+
+  .views-field-title {
+  	font-family: "Gotham-Bold";
+  	font-size: 40px;
+  	font-weight: bold;
+  	text-align: right;
+  	text-transform: uppercase;
+  	letter-spacing: 5px;
+  	
+  	span {
+  	  color: white;
+  	}
+  }
+
+  .views-field-body {
+  	font-family: "Gotham-Book";
+  	font-size: 20px;
+  	text-align: right;
+  	color: white;
+
+  	p {
+  	  letter-spacing: 2px;
+  	  font-weight: bold;
+  	  color: white;
+  	}
+  }
+}
+
+/*COMMERCE SHOPPING LIST
+.block-commerce-cart-cart {
+  position: absolute;
+  top: 21px;
+  right: 180px;
+
+  h2, table {
+  	display: none;
+  }
+
+  .line-item-summary {
+  	width: 155%; 
+  }
+
+  .line-item-quantity,
+  .line-item-total {
+    font-family: "Gotham-Bold";
+    font-size: 15px;
+  }
+
+  .line-item-total-label {
+  	font-weight: normal;
+  }
+
+  .inline a {
+    position: absolute;
+    top: 3px;
+    right: -165px;
+  
+    font-family: "Gotham-Bold";
+    font-size: 19px;
+
+    background-image: url(../images/icons/shopping-logo.png);
+    background-repeat: no-repeat;
+
+    white-space: nowrap;
+    overflow: hidden;
+    color: transparent;
+  }
+}*/
+
+.block-views-commerce-cart-block {
+  table {
+  	border: 0;
+  }
+
+  tbody {
+  	display: none;
+  }
+
+  tfoot {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    background: transparent;
+
+  	th {
+  	  background: transparent;
+  	  border: 0;
+
+  	  font-family: "Gotham-Bold";
+      font-size: 13px;
+  	}
+
+  	.views-field-commerce-total {
+  	  position: absolute;
+      right: 70px;
+      width: 120%;
+      text-align: right;
+  	}
+
+  	.views-field-quantity {
+  	  color: #5d3914;
+  	}
+  }
+
+  .inline a {
+    position: absolute;
+    top: 23px;
+    right: 0px;
+  
+    font-family: "Gotham-Bold";
+    font-size: 19px;
+
+    background-image: url(../images/icons/shopping-logo.png);
+    background-repeat: no-repeat;
+
+    white-space: nowrap;
+    overflow: hidden;
+    color: transparent;
+  }
+}
+
+/*TITLE (CENTERED))*/
+.title {
+  text-align: center;
+  color: #5d3914;
+  font-size: 150%;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+/*DESCRIPTION REGION*/
+.block-views-lorem-description-block {
+  text-align: center;
+  margin-bottom: 5%; 
+
+  p {
+  	text-align: center;
+    margin: 0px auto;
+  	width: 80%;
+  	word-wrap: break-word;
+  	font-family: "Gotham-Book";
+  	font-size: 18px;
+  }
+}
+
+/*FIELD LABELS AND PAGINATION (HIDE)*/
+.field-label, .pagination-centered {
+  /*display: none;*/
+}
+
+/*FIRST REGION (LEFT|RIGHT)*/
+.first_region{
+  margin-bottom: 20px;
+
+  .left {background: #e1b859;}
+  .right {background: #bf953c;}
+}
+
+/*SECOND REGION (LEFT|RIGHT)*/
+.second_region {
+  background: #F15A56;
+}
+
+/*FEATURED COFFEE*/
+.block-views-featured-coffee-block{
+  background: #e1b859;
+
+  .views-field-field-image { 
+    img {
+      width: 100%;
+    }
+  }
+
+  .views-field-title {
+    text-align: center;
+  	margin-top: 50px;
+  	margin-bottom: 30px; 
+  	text-transform: uppercase;
+
+  	font-family: "Gotham-Black";
+    font-size: 20px;
+  } 
+
+  .views-field-body,
+  .views-field-field-price {
+  	text-align: center;
+  	margin-top: 30px;
+  	margin-left: auto;
+    margin-right: auto;
+  	margin-bottom: 50px;
+
+  	background: #e1b859;
+  	width: 30em;
+  	word-wrap: break-word;
+
+  	font-family: "Gotham-Book";
+    font-size: 15px;
+  }
+}
+
+/*FEATURED CAKE*/
+.block-views-featured-cake-block {
+  background: #bf953c;
+
+  .views-field-field-image { 
+    img {
+      width: 100%;
+    }
+  }
+
+  .views-field-title {
+  	text-align: center;
+  	margin-top: 50px;
+  	margin-bottom: 30px; 
+  	text-transform: uppercase;
+
+  	font-family: "Gotham-Black";
+    font-size: 20px;
+  } 
+
+  .views-field-body,
+  .views-field-field-price {
+  	text-align: center;
+  	margin-top: 30px;
+  	margin-left: auto;
+    margin-right: auto;
+  	margin-bottom: 50px;
+
+  	background: #bf953c;
+  	width: 30em;
+  	word-wrap: break-word;
+
+  	font-family: "Gotham-Book";
+    font-size: 15px;
+  }
+}
+
+/*FEATURED BLOG*/
+.block-views-featured-blog-block {
+  background: #f15a56;
+  text-align: left;
+  margin: 160px auto;
+  width: 66%;
+
+  p {
+  	color: white;
+  }
+
+  span {
+  	letter-spacing: 1px;
+  	color: white;
+  }
+
+  .views-field-title { 
+  	font-weight: bold;
+  	text-transform: uppercase;
+
+  	font-family: "Gotham-Black";
+    font-size: 20px;
+  } 
+
+  .views-field-created {
+  	margin-top: 10px;
+  	text-transform: uppercase;
+  	font-weight: bold;
+
+  	font-family: "Gotham-Light";
+    font-size: 20px;
+  }
+
+  .views-field-body {
+  	margin-top: 30px;
+  	margin-bottom: 50px;
+  	width: 30em;
+  	word-wrap: break-word;
+
+  	font-family: "Gotham-Light";
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
+
+/*FOOTER || ALL*/
+.panel {
+  background: #f8f3db;
+  height: 20em;
+  margin-bottom: 0em;
+}
+
+/*FOOTER WEBFORM*/
+.block-views-newsletter-block {
+  background: transparent;
+  text-align: center;
+  color: #5d3914;
+  width: 100%;
+
+  font-family: "Gotham-Bold";
+  font-size: 15px;
+
+  #edit-submitted-name--2,
+  #edit-submitted-email--2 {
+  	border: 2px solid #5d3914;
+  	background: transparent;
+  	height: 40px;
+
+  	font-family: "Gotham-Thin";
+  	font-weight: bold;
+    font-size: 13px;
+  }
+}
+
+/*WEBFORM BUTTON FORMAT (FOOTER)*/
+.views-field-webform-form-body {
+  button.radius, .button.radius {
+    background: #5d3914;
+    color: white;
+    width: 100%;
+
+    font-weight: bold;
+    font-family: "Gotham-Thin";
+    font-size: 15px;
+
+    border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border: 0px solid #5d3914
+  }
+}
+
+/*INPUT PLACEHOLDER COLOR*/
+input::-webkit-input-placeholder {
+  color: #5d3914;
+}
+input::-moz-placeholder {
+  color: #5d3914;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+  color: #5d3914;
+}
+input:-ms-input-placeholder { 
+  color: #5d3914;
+}
+:-webkit-input-placeholder {
+   color: #5d3914;
+}
+/*END PLACEHOLDER COLOR*/
+
+/*TEXTAREA PLACEHOLDER COLOR*/
+::-webkit-input-placeholder {
+  color: #5d3914;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #5d3914; 
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #5d3914;  
+}
+:-ms-input-placeholder {  
+   color: red; color: #5d3914;
+}
+/*END TEXTAREA PLACEHOLDER COLOR*/
+
+/*FOOTER PLACING (ITEMS) || ALL*/
+.panel > :first-child {
+  margin-top: 55px;
+}
+
+/*FOOTER POWERED BY (HIDE) || ALL*/
+.panel > :last-child {
+  display: none;
+}
+
+/*CONTACT PAGE: MESSAGE TEXTAREA*/
+#edit-submitted-message {
+  height: 150px;
+  width: 100%;
+}
+
+/*FOOTER 1*/
+.block-views-contact-block-1 {
+  margin-top: 100px;
+
+  .views-field-webform-form-body {
+    width: 85%;
+    text-align: left;
+
+    .form-submit {
+  	background: transparent;
+  	color: #5d3914;
+  	width: 30%;
+
+    border-radius: 50px; 
+    -moz-border-radius: 50px; 
+    -webkit-border-radius: 50px; 
+    border: 2px solid #5d3914
+	}
+  }
+}
+
+/*FOOTER 2*/
+.block-views-cw-footer-links-block {
+  text-align: center;
+  width: 100%;
+  color: #5d3914;
+  margin-top: 10px;
+
+  .views-field-body {
+    p {
+  	  color: #5d3914;
+  	  font-weight: bold;
+  	  font-family: "Gotham-Thin";
+      font-size: 15px;
+  	}
+
+  	a {
+  	  font-weight: normal;
+  	  font-weight: bold;
+  	  font-family: "Gotham-Thin";
+  	  font-size: 15px;
+    }    
+  }
+}
+
+/*FOOTER 2 (SOCIAL MEDIA ICONS)*/
+.block-views-social-links-block {
+   .cols-3 {
+  	background: transparent;
+  	text-align: center;
+  	width: 35%;
+  	margin-top: 30px;
+  	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+  }
+
+  img {
+  	height: 30px;
+  	width: 30px;
+  }
+}
+
+/*FOOTER 3*/
+.block-views-cw-footer-text-block {
+  .views-field-title {
+  	text-align: right;
+  	margin-bottom: 35px;
+
+  	font-family: "Gotham-Bold";
+  	font-weight: bold;
+    font-size: 15px;
+  }
+
+  .views-field-body {
+    p {
+      text-align: justify;
+      direction:rtl;
+      color: #5d3914;
+
+      font-family: "Gotham-Thin";
+      font-weight: bold;
+      font-size: 13px;
+    }
+  }
+}
+
+/*BUTTON*/
+.views-field-webform-form-body {
+  .form-submit {
+    border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border: 0px solid #5d3914;
+	}
+}
+
+/*----------------------------------------------------ABOUT-------------------------------------------------------*/
+/*ABOUT PAGE (BODY)*/
+.body-about {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  strong {
+  	font-family: "Gotham-Bold";
+  	font-size: 18px;
+  }
+
+  p {
+  	width: 80%;
+  	word-wrap: break-word;
+
+  	font-family: "Gotham-Light";
+  	font-size: 15px;
+  	margin: 0px auto;
+  }
+}
+/*------------------------------------------------COFFEE AND CAKES--------------------------------------------------*/
+
+/*COFFEE AND CAKE PAGE*/
+.product-details {
+  position: relative;
+  top: 25px; 
+
+  span {
+  	font-family: "Gotham-Bold";
+  	font-size: 15px;
+  }
+
+  .product-title, .cake-title {
+  	position: relative;
+  	left: 13px;
+  	color: #5d3914;
+
+  	font-family: "Gotham-Bold";
+  	font-size: 15px;
+  }
+
+  .coffee-summary, .cake-summary {
+    position: absolute;
+    top: 65px;
+    left: 13px;
+
+    font-family: "Gotham-Light";
+    font-weight: bold;
+  	font-size: 13px;
+  }
+
+  .form-submit {
+    background: transparent;
+    border: none;
+    border-style: none;
+    color: #5d3914;
+
+    position: relative;
+    top: -35px;
+    left: 90px;
+
+    font-family: "Gotham-Bold";
+    font-weight: 100px;
+  	font-size: 15px;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*BLOGS PAGE*/
+.block-views-blogs-block-1 {
+  .views-field-title {
+  	margin-top: 40px; 
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+    font-family: "Gotham-Bold";
+  	font-size: 18px;
+  }
+
+  .views-field-created {
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+    font-family: "Gotham-Bold";
+  	font-size: 18px;
+  }
+
+  .views-field-body {
+  	margin-left: 50px;
+  	margin-bottom: 40px;
+
+  	font-family: "Gotham-Light";
+  	font-size: 15px;
+  }
+}
+
+/*BLOGS FEATURED POST STRETCHED*/
+.block-views-featured-post-block {
+  width: 100%;
+}
+
+/*POSTED (HIDE)*/
+.posted {
+  /*display: none;*/
+}
+
+/*BLOG PAGE (HIDE ADD COMMENT)*/
+.comment-form {
+  text-align: left;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*GEOLOCATION GMAP*/
+.views-field-field-geolocation {
+  margin-top: -20px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*CONTACT PAGE TEXT*/
+.block-views-cw-contact-block {
+  position: relative;
+  top: 100px;
+  left: 130px;
+
+  .views-field-title {
+  	margin-bottom: 20px;
+    
+    font-family: "Gotham-Bold";
+    font-size: 20px;
+  }
+
+  .views-field-body {
+    p {
+      font-family: "Gotham-Light";
+      font-size: 18px;
+    }
+  }
+}
+
+/*INPUT/WEBFORM*/
+#edit-submitted-name,
+#edit-submitted-email,
+#edit-submitted-contact {
+  border: 2px solid #5d3914;
+  background: transparent;
+  height: 50px;
+
+  font-family: "Gotham-Thin";
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#edit-submitted-message {
+  border: 2px solid #5d3914;
+  background: transparent;
+  height: 180px;
+
+  font-family: "Gotham-Thin";
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/*LABELS*/
+.webform-component--name,
+.webform-component--email,
+.webform-component--contact,
+.webform-component--message {
+  label {
+  	display: none;
+  }
+}
+
+/*CONTACT PAGE: BUTTON*/
+.webform-client-form {
+  .form-submit {
+  	background: transparent;
+  	color: #5d3914;
+  	width: 25%;
+
+    border-radius: 50px; 
+    -moz-border-radius: 50px; 
+    -webkit-border-radius: 50px; 
+    border: 2px solid #5d3914;
+	}
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*USER LOGIN PAGE*/
+#user-login {
+  span {
+  	/*display: none;*/
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*SHOPPING CART PAGE*/
+.commerce-line-item-views-form {
+  font-family: "Gotham-Book";
+  font-size: 15px;
+  color: #5d3914;
+
+  .line-item-summary {
+  	.line-item-total-label,
+  	.line-item-total-raw {
+  	  font-family: "Gotham-Book";
+      font-size: 15px;
+  	}
+  }
+
+   .form-submit, #edit-checkout { 
+    background: #5d3914;
+    border: 0px solid #a3580d;
+  }
+
+  #edit-submit {
+  	background: #D0D0D0;
+    border: 1px solid #ccc;
+    color: #000;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*CHECKOUT PAGE*/
+#commerce-checkout-form-checkout {
+  legend {
+  	background: #f7f7f2;
+  }
+
+  #edit-continue {
+  	background: #5d3914;
+    border: 0px solid #a3580d;
+  }
+
+  #edit-cancel {
+  	color: #5d3914;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*CHECKOUT REVIEW PAGE*/
+#commerce-checkout-form-review {
+  legend {
+  	background: #f7f7f2;
+  }
+
+  #edit-continue {
+  	background: #5d3914;
+    border: 0px solid #a3580d;
+  }
+
+  #edit-back {
+  	color: #5d3914;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*COMMERCE COMPLETE PAGE*/
+#commerce-checkout-form-complete {
+  #edit-checkout-completion-message {
+  	a {
+  	  font-weight: bold;
+  	}
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*480w x 800h*/
+@media screen and (max-width: 480px) {
+  .toggle-topbar {
+    a {
+      color: #5d3914;
+    }
+  }
+
+  #main-menu {
+    background: transparent;
+    margin: 0px auto;
+    width: 100%;
+
+    margin-top: -55px;
+
+    font-family: "Gotham-Bold";
+    font-size: 15px;
+
+    li {
+      padding: 5px;
+    }
+
+    visibility: hidden;
+
+    .first a {
+      display: none;
+    }
+  }
+
+  .logo {
+    margin-left: -10px;
+  }
+
+  .expanded {
+    background-color: #f8f3d9;
+
+    #main-menu {
+      background-color: #f8f3d9;
+      margin: 0px auto;
+      width: 100%;
+
+      font-family: "Gotham-Bold";
+      font-size: 15px;
+
+      visibility: visible;
+
+      .first a {
+        display: none;
+      }
+    }
+
+    .logo {
+      margin-left: -10px;  
+      background-color: #f8f3d9;
+    }
+
+    .top-bar-section ul li {
+      background-color: #f8f3d9;
+      position: relative;
+      top: 5px;
+      width: 100%;
+      float: left;
+      clear: both;
+    }
+  }
+
+  /*HEADER VALUE*/
+  .block-views-header-value-block {
+    position: relative;
+    top: -140px;
+    right: -150px;
+    width: 60%;
+
+    margin-bottom: -100px;
+
+    .views-field-title {
+    
+      span {
+      }
+    }
+
+    .views-field-body {
+      font-family: "Gotham-Book";
+      font-size: 10px;
+      text-align: right;
+      color: white;
+      width: 100%;
+
+      p {
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: white;
+      }
+    }
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
